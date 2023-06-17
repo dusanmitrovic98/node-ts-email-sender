@@ -3,3 +3,4 @@ import { ReadStream, createReadStream } from 'fs';
 import { promisify } from 'util';
 
 function app(): void {
+  const transporter: Transporter = nodemailer.createTransport({
