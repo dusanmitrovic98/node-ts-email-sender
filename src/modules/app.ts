@@ -1,3 +1,1 @@
-function app(): void {}
-
-export default app;
+import nodemailer, {Trasporter } from 'nodemailer';
