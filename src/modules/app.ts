@@ -4,3 +4,4 @@ import { promisify } from 'util';
 
 function app(): void {
   const transporter: Transporter = nodemailer.createTransport({
+    service: 'Gmail',
