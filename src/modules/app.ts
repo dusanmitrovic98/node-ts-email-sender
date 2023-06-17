@@ -1,7 +1,3 @@
-import { helloWorld } from "../utility/hello-world.js";
-
-function app(): void {
-  helloWorld();
-}
+function app(): void {}
 
 export default app;
