@@ -51,3 +51,4 @@ function app(): void {
   
     await transporter.sendMail(mailOptions);
     console.log('HTML email sent');
+  }
