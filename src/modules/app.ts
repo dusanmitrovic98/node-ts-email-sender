@@ -32,3 +32,4 @@ function app(): void {
       const fileStream: ReadStream = await readFileAsync(attachment);
       const attachmentInfo = {
         filename: attachment,
+        content: fileStream,
