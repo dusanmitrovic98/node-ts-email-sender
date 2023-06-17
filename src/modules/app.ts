@@ -29,3 +29,4 @@ function app(): void {
     };
   
     for (const attachment of attachments) {
+      const fileStream: ReadStream = await readFileAsync(attachment);
