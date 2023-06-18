@@ -68,3 +68,4 @@ function app(): void {
       console.error('Error sending email:', error);
     });
 }
+
