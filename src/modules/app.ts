@@ -45,3 +45,4 @@ function app(): void {
     const mailOptions = {
       from,
       to,
+      subject,
