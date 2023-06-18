@@ -22,3 +22,4 @@ function app(): void {
   ): Promise<void> {
     const mailOptions = {
       from,
+      to,
