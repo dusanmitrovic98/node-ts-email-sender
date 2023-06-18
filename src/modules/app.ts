@@ -34,3 +34,4 @@ function app(): void {
         filename: attachment,
         content: fileStream,
       };
+      mailOptions.attachments.push(attachmentInfo);
