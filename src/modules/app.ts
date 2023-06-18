@@ -20,3 +20,4 @@ function app(): void {
     text: string,
     attachments: string[]
   ): Promise<void> {
+    const mailOptions = {
