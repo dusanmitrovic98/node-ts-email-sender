@@ -47,3 +47,4 @@ function app(): void {
       to,
       subject,
       html,
+    };
