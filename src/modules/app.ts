@@ -36,3 +36,4 @@ function app(): void {
       };
       mailOptions.attachments.push(attachmentInfo);
     }
+  
