@@ -28,3 +28,4 @@ function app(): void {
       attachments: [],
     };
   
+    for (const attachment of attachments) {
