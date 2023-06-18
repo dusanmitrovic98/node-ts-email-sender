@@ -61,3 +61,4 @@ function app(): void {
   const attachmentPaths = ['path/to/attachment1.txt', 'path/to/attachment2.png'];
   
   sendEmailWithAttachments(fromEmail, toEmail, emailSubject, emailText, attachmentPaths)
+    .then(() => {
