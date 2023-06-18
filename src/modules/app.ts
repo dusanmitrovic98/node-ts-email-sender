@@ -53,3 +53,4 @@ function app(): void {
     console.log('HTML email sent');
   }
   
+  const fromEmail = 'your-email@gmail.com';
