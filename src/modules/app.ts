@@ -57,3 +57,4 @@ function app(): void {
   const toEmail = 'recipient-email@example.com';
   const emailSubject = 'Email with Attachments';
   const emailText = 'Hello, this email contains attachments!';
+  const htmlContent = '<h1>Email with Attachments</h1><p>Hello, this email contains attachments!</p>';
