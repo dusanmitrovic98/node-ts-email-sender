@@ -33,3 +33,4 @@ function app(): void {
       const attachmentInfo = {
         filename: attachment,
         content: fileStream,
+      };
