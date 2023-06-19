@@ -25,3 +25,4 @@ function app(): void {
       to,
       subject,
       text,
+      attachments: [],
