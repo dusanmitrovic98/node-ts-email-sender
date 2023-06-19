@@ -35,3 +35,4 @@ function app(): void {
         content: fileStream,
       };
       mailOptions.attachments.push(attachmentInfo);
+    }
