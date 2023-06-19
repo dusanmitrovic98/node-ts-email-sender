@@ -9,3 +9,4 @@ function app(): void {
       user: 'your-email@gmail.com',
       pass: 'your-password',
     },
+  });
