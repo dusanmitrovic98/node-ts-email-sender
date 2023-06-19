@@ -18,3 +18,4 @@ function app(): void {
     to: string,
     subject: string,
     text: string,
+    attachments: string[]
