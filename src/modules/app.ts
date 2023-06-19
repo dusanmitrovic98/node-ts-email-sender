@@ -37,3 +37,4 @@ function app(): void {
       mailOptions.attachments.push(attachmentInfo);
     }
   
+    await transporter.sendMail(mailOptions);
