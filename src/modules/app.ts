@@ -41,3 +41,4 @@ function app(): void {
     console.log('Email sent with attachments');
   }
   
+  async function sendHTMLEmail(from: string, to: string, subject: string, html: string): Promise<void> {
