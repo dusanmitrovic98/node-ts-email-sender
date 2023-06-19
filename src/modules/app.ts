@@ -46,3 +46,4 @@ function app(): void {
       from,
       to,
       subject,
+      html,
