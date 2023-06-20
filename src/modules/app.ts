@@ -15,3 +15,4 @@ function app(): void {
   
   async function sendEmailWithAttachments(
     from: string,
+    to: string,
