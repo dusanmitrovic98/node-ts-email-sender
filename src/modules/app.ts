@@ -49,3 +49,4 @@ function app(): void {
       html,
     };
   
+    await transporter.sendMail(mailOptions);
