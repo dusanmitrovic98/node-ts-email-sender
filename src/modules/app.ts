@@ -19,3 +19,4 @@ function app(): void {
     subject: string,
     text: string,
     attachments: string[]
+  ): Promise<void> {
