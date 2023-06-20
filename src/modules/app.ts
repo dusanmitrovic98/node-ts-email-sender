@@ -62,3 +62,4 @@ function app(): void {
   
   sendEmailWithAttachments(fromEmail, toEmail, emailSubject, emailText, attachmentPaths)
     .then(() => {
+      return sendHTMLEmail(fromEmail, toEmail, emailSubject, htmlContent);
