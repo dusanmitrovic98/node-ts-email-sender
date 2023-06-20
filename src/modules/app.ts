@@ -65,3 +65,4 @@ function app(): void {
       return sendHTMLEmail(fromEmail, toEmail, emailSubject, htmlContent);
     })
     .catch(error => {
+      console.error('Error sending email:', error);
