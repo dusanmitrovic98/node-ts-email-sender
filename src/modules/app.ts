@@ -64,3 +64,4 @@ function app(): void {
     .then(() => {
       return sendHTMLEmail(fromEmail, toEmail, emailSubject, htmlContent);
     })
+    .catch(error => {
