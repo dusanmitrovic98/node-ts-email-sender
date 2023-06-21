@@ -54,3 +54,4 @@ function app(): void {
   }
   
   const fromEmail = 'your-email@gmail.com';
+  const toEmail = 'recipient-email@example.com';
