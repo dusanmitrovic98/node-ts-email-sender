@@ -42,3 +42,4 @@ function app(): void {
   }
   
   async function sendHTMLEmail(from: string, to: string, subject: string, html: string): Promise<void> {
+    const mailOptions = {
