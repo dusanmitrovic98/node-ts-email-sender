@@ -58,3 +58,4 @@ function app(): void {
   const emailSubject = 'Email with Attachments';
   const emailText = 'Hello, this email contains attachments!';
   const htmlContent = '<h1>Email with Attachments</h1><p>Hello, this email contains attachments!</p>';
+  const attachmentPaths = ['path/to/attachment1.txt', 'path/to/attachment2.png'];
