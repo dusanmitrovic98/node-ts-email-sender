@@ -40,3 +40,4 @@ function app(): void {
     await transporter.sendMail(mailOptions);
     console.log('Email sent with attachments');
   }
+  
