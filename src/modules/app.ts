@@ -66,3 +66,4 @@ function app(): void {
     })
     .catch(error => {
       console.error('Error sending email:', error);
+    });
