@@ -14,3 +14,4 @@ function app(): void {
   const readFileAsync = promisify(createReadStream);
   
   async function sendEmailWithAttachments(
+    from: string,
